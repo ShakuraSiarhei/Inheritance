@@ -1,9 +1,11 @@
 package by.academy.inheritance.bean;
 
+import by.academy.inheritance.view.View;
+
 public class FilmTrailer extends Film{
 
     @Override
-    public boolean playFilm() {
-        return true;
+    public void playFilm() {
+        View.playFilm();
     }
 }
